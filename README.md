@@ -2,6 +2,8 @@
 
 ##  a translate tool.
 
+##事例
+
 $ trans tool
 
   tool  英 [ tuːl]   美 [tuːl] ~ youdao
