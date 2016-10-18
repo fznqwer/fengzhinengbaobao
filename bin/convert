@@ -1,0 +1,7 @@
+#!/usr/bin/env node
+
+
+/**
+ * Created by Administrator on 2016/10/17.
+ */
+console.log('hello baby');

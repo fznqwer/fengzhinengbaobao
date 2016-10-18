@@ -1,8 +1,11 @@
 {
   "name": "fengzhinengbaobao",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "a test \u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[C\u001b[C\u001b[",
   "main": "index.js",
+  "bin":{
+    "convert": "./bin/convert"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
