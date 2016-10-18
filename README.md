@@ -2,7 +2,7 @@
 
 ##  a translate tool.
 
-##示例  输入trans 单词
+##examples  import　trans word
 
 $ trans tool
 
