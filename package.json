@@ -1,16 +1,16 @@
 {
-  "name": "fengzhinengbaobao",
-  "version": "1.1.0",
+  "name": "translateFzn",
+  "version": "1.5.6",
   "description": "a test \u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[C\u001b[C\u001b[",
   "main": "index.js",
   "bin": {
-    "convert": "./bin/convert"
+    "trans": "./bin/convert"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "fengzhineng"
+    "translate"
   ],
   "author": "fengzhineng",
   "license": "ISC"

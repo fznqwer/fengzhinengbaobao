@@ -1,7 +1,22 @@
-#!/usr/bin/env node
+#! /usr/bin/env node
 
 
 /**
  * Created by Administrator on 2016/10/17.
  */
-console.log('hello baby');
+var request = require('request');
+var json2str = require('./json2str');
+var Entities = require('html-entities').AllHtmlEntities;
+entities = new Entities();
+
+var word = process.argv[2];
+request("http://fanyi.youdao.com/openapi.do?keyfrom=fanyi-node&key=593554388&type=data&doctype=json&version=1.1&q="+word, function (error, response, body) {
+    if (!error) {
+           var data = JSON.parse(entities.decode(body));
+           json2str.json2str(data);
+    }else{
+            console.log('error');
+    }
+})
+
+
